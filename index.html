@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Προσωπική Ιστοσελίδα | konstantinos kouurouklidis</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:,">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">konstantinos kouurouklidis</div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Αρχική</a></li>
+                <li><a href="#about" class="nav-link">Για Μένα</a></li>
+                <li><a href="#gallery" class="nav-link">Γκαλερί</a></li>
+                <li><a href="#contact" class="nav-link">Επικοινωνία</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Γεια σας, είμαι ο <span class="highlight">konstantinos kouurouklidis</span></h1>
+                <p>Frontend Developer & UI/UX Designer παθισμένος για όμορφα, λειτουργικά και απλοϊκά web applications.</p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">Μάθετε Περισσότερα</a>
+                    <a href="#contact" class="btn btn-secondary">Επικοινωνήστε</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="avatar-placeholder">KK</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">Για Μένα</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Παθισμένος για τη δημιουργία όμορφων ψηφιακών εμπειριών, έχω εργαστεί σε έργα που κεντρίζουν τον χρήστη και προσφέρουν εξαιρετική απόδοση.</p>
+                    <p>Ειδικευμένος σε HTML, CSS, JavaScript και σύγχρονα frameworks. Όταν δεν κώδικα, αγαποώ το αλάτι, το σέρφινγκ και την εξερεύνηση νέων τεχνολογιών.</p>
+                    <div class="skills">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3 / SCSS</span>
+                        <span class="skill-tag">JavaScript / ES6+</span>
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">UI/UX Design</span>
+                        <span class="skill-tag">Responsive Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Γκαλερί Έργων</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1547658719-fa923c011757?ixlib=rb-4.0.3&auto=format&fit=crop&w=600x400&q=80" alt="Έργο 1">
+                    <div class="gallery-overlay">
+                        <h3>E-Commerce Πλατφόρμα</h3>
+                        <p>Ένας νεοσύνδεσμος για ψηφιακό κατάστημα με πλήρη διασύνδεση σε πάροχο πληρωμών.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1542838683-3ad40ab4bc89?ixlib=rb-4.0.3&auto=format&fit=crop&w=600x400&q=80" alt="Έργο 2">
+                    <div class="gallery-overlay">
+                        <h3>Travel Landing Page</h3>
+                        <p>Μια εντυπωσιακή σελίδα προορισμού με animation και parallax εφέκτει.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d1423636?ixlib=rb-4.0.3&auto=format&fit=crop&w=600x400&q=80" alt="Έργο 3">
+                    <div class="gallery-overlay">
+                        <h3>Task Management App</h3>
+                        <p>Μια λιγόφοβη εφαρμογή διαχείρισης εργασιών με drag & drop λειτουργία.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1517841905240-e3ab61f38ea9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600x400&q=80" alt="Έργο 4">
+                    <div class="gallery-overlay">
+                        <h3>Portfolio Website</h3>
+                        <p>Μια προσωπική ιστοσελίδα με σύγχρονο σχεδιασμό και πλήρη απόδοση σε κινητές συσκευές.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Επικοινωνήστε</h2>
+            <form class="contact-form" id="contact-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Όνομα</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Θέμα</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Μήνυμα</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Στείλε Μήνυμα</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">konstantinos kouurouklidis</div>
+                <p>Δημιουργώ web εμπειρίες που συνδέουν το ανθρώπινο με το ψηφιακό.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">GitHub</a>
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">Twitter</a>
+                </div>
+                <p class="copyright">&copy; 2024 konstantinos kouurouklidis. Όλα τα δικαιώματα αποτελούνται.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
